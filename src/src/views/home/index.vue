@@ -3,16 +3,16 @@
     <topbar :playClick="playClick" :getAudio="getAudio"/>
     <Title/>
     <Bottom />
-    <div class="snow-wrapper"></div>
   </div>
+  <div class="snow-wrapper"></div>
 </template>
 
 <script>
 import {FastjsDom, selecter as $} from "fastjs-next";
-import Title from "../../views/home/title.vue";
-import Topbar from "../../views/home/topbar.vue";
+import Title from "@/views/home/title";
+import Topbar from "@/views/home/topbar";
 import {message} from "ant-design-vue";
-import Bottom from "../../views/home/bottom.vue";
+import Bottom from "@/views/home/bottom";
 
 export default {
   name: "index",

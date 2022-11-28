@@ -3,7 +3,7 @@
     <div class="image-avatar"></div>
     <div class="break-line"></div>
     <span class="nickname">dy-xiaodong2022</span>
-    <span class="sign">一个14岁的废物初中生</span>
+    <span class="sign">没有什么一帆风顺，路上的艰辛只有自己知道</span>
   </div>
 </template>
 
